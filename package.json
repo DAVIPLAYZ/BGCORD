@@ -1,0 +1,14 @@
+{
+  "name": "bgcord",
+  "version": "0.4.1",
+  "description": "BGCORD - plataforma de comunidades",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=22.13.0" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "socket.io": "^4.8.1"
+  }
+}
